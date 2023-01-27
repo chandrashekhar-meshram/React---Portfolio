@@ -99,3 +99,61 @@ header .header-inner {
   color: var(--red-text);
 }
 /* Header - end */
+
+/* Banner - start  */
+.banner .banner-wrapper {
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.banner .banner-img {
+  position: relative;
+  flex: 0 0 50%;
+  max-width: 50%;
+  width: 100%;
+}
+
+.banner .banner-content h6 {
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--red-text);
+  font-weight: 600;
+}
+
+.banner .banner-content h3 {
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--light);
+  margin: 6px 0px;
+  font-weight: 900;
+}
+
+.banner .banner-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--light);
+}
+
+.banner .banner-content .btn {
+  max-width: 150px;
+  height: 50px;
+  background: var(--red);
+  color: var(--light);
+  margin-top: 10px;
+  background: linear-gradient(
+    to right,
+    var(--red-dark) 0%,
+    var(--red-dark) 21%,
+    var(--red) 100%
+  );
+  border: 1px solid var(--red-dark);
+  font-weight: 600;
+}
+
+.banner .banner-content .btn:hover {
+  background: transparent;
+}
+/* Banner - end  */
