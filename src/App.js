@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import ServicesExperience from './components/ServicesExperience';
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Banner />
       <ServicesExperience />
       <Projects />
+      <Footer />
     </div>
   );
 }
