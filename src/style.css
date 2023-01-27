@@ -548,3 +548,51 @@ footer p i {
 }
 /* Media Queries - 767px - End */
 
+/* Media Queries - 660px - Start */
+@media (max-width: 660px) {
+  .banner .banner-content h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .services-experience::before {
+    width: 0;
+  }
+
+  .services .service {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .experience, .portfolios {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .projects-wrapper .project {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  footer .container {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+  }
+
+  footer .logo, 
+  footer .links,
+  footer p {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer p {
+    margin-bottom: 0px;
+  }
+}
+/* Media Queries - 660px - End */

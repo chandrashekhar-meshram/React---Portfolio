@@ -6,38 +6,38 @@ function Projects() {
     {
       title: "Project 1",
       img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/1.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
+      lLink: "https://chandrashekhar.stackblitz.io/",
     },
     {
       title: "Project 2",
       img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/2.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
+      lLink: "https://chandrashekhar.stackblitz.io/",
     },
     {
       title: "Project 3",
       img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/3.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
+      lLink: "https://chandrashekhar.stackblitz.io/",
     },
     {
       title: "Project 4",
       img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/4.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
+      lLink: "https://chandrashekhar.stackblitz.io/",
     },
     {
       title: "Project 5",
       img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/5.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
+      lLink: "https://chandrashekhar.stackblitz.io/",
     },
     {
       title: "Project 6",
       img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/6.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
+      lLink: "https://chandrashekhar.stackblitz.io/",
     },
   ]);
   return (
@@ -46,7 +46,7 @@ function Projects() {
         <div className="title">
           <h3>Featured Projects</h3>
           <a
-            href="https://github.com/hafizjavaid"
+            href="https://github.com/chandrashekhar-meshram"
             target="_blank"
             className="btn"
             rel="noreferrer"
