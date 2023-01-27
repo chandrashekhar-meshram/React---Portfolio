@@ -5,37 +5,37 @@ function Projects() {
   const [projects] = useState([
     {
       title: "Project 1",
-      img: " ",
+      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/1.png",
       gLink: "https://github.com/hafizjavaid",
       lLink: "https://me-hafiz.netlify.app/",
     },
     {
       title: "Project 2",
-      img: " ",
+      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/2.png",
       gLink: "https://github.com/hafizjavaid",
       lLink: "https://me-hafiz.netlify.app/",
     },
     {
       title: "Project 3",
-      img: " ",
+      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/3.png",
       gLink: "https://github.com/hafizjavaid",
       lLink: "https://me-hafiz.netlify.app/",
     },
     {
       title: "Project 4",
-      img: " ",
+      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/4.png",
       gLink: "https://github.com/hafizjavaid",
       lLink: "https://me-hafiz.netlify.app/",
     },
     {
       title: "Project 5",
-      img: " ",
+      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/5.png",
       gLink: "https://github.com/hafizjavaid",
       lLink: "https://me-hafiz.netlify.app/",
     },
     {
       title: "Project 6",
-      img: " ",
+      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/6.png",
       gLink: "https://github.com/hafizjavaid",
       lLink: "https://me-hafiz.netlify.app/",
     },
