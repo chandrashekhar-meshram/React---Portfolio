@@ -493,3 +493,58 @@ footer p i {
 }
 /* Media Queries - 969px - End */
 
+/* Media Queries - 767px - start */
+@media (max-width: 767px) {
+  header .links {
+    display: none;
+  }
+
+  header .menu {
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  header .mobile-links.active {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    width: 250px;
+    transition: 0.3s;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    background: var(--dark-light);
+    bottom: 0;
+    padding: 100px 40px;
+    z-index: 9;
+  }
+
+  header .mobile-liinks.active a {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--red-text);
+    line-height: 30px;
+    transition: 0.3s;
+    display: inline;
+    padding-bottom: 3px;
+    border-bottom: 2px solod transparent;
+  }
+
+  header .mobile-links.active a:hover {
+    border-color: var(--red-text);
+  }
+
+  .banner .banner-wrapper {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 50px 0px;
+  }
+
+  .banner .banner-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* Media Queries - 767px - End */
+
