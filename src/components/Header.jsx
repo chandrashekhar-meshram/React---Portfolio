@@ -1,5 +1,6 @@
-import React, {useState, useEffect} from 'react';
+import React from "react";
 
+import { useState, useEffect } from "react";
 function Header() {
   const [stickyClass, setStickyClass] = useState("");
   const [active, setActive] = useState(false);
@@ -22,55 +23,45 @@ function Header() {
   return (
     <header className={`${stickyClass}`}>
       <div className="header-inner">
-        <span className="logo">Shekhar</span>
+        <span className="logo">Shekhar.</span>
         <div className="links">
-          <a href="#banner" className="link">
+          <a className="link" href="#banner">
             Home
           </a>
-          <a href="#services" className="link">
-            Services
+          <a className="link" href="#services">
+            Sevices
           </a>
-          <a href="#experiences" className="link">
+          <a className="link" href="#experiences">
             Experience
           </a>
-          <a href="#projects" className="link">
+          <a className="link" href="#projects">
             Projects
           </a>
         </div>
-        <span className="menu" onClick={()=> setActive(!active)}>
+        <span className="menu" onClick={() => setActive(!active)}>
           <i className="fas fa-bars"></i>
         </span>
       </div>
       <div className={`mobile-links ${active ? "active" : ""}`}>
-        <a 
-          className="link" 
-          onClick={()=> setActive(!active)} href="#banner"
-        >
+        <a className="link" onClick={() => setActive(!active)} href="#banner">
           Home
         </a>
-        <a 
-          className="link" 
-          onClick={()=> setActive(!active)} href="#services"
-        >
-          Services
+        <a className="link" onClick={() => setActive(!active)} href="#services">
+          Sevices
         </a>
         <a
           className="link"
-          onClick={()=> setActive(!active)}
+          onClick={() => setActive(!active)}
           href="#experiences"
         >
           Experience
         </a>
-        <a
-          className="link"
-          onClick={()=> setActive(!active)}
-          href="#projects"
-        >
+        <a className="link" onClick={() => setActive(!active)} href="#projects">
           Projects
         </a>
       </div>
     </header>
   );
-};
+}
 
 export default Header;
