@@ -20,7 +20,7 @@ const Banner = () => {
               adipisci culpa voluptatem dolorem laudantium temporibus quos
               laborum, beatae sint delectus expedita quo.
             </p>
-            <a className="btn" href="">
+            <a className="btn" href="#projects">
               About Me
             </a>
           </div>

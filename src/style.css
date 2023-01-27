@@ -17,6 +17,7 @@ p {
   text-decoration: none;
 }
 
+
 :root {
   --red: #cd3128;
   --red-dark: #ab261f;
@@ -25,22 +26,36 @@ p {
   --dark: #111;
   --light: #ffffff;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 body {
   background-color: var(--dark);
   color: var(--light);
 }
 
+/* Header - start */
 .container,
 .header-inner {
   max-width: 1200px;
   padding: 0px 20px;
   width: 100%;
   margin: auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  width: 100%;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
 }
 
 header {
@@ -83,5 +98,4 @@ header .header-inner {
 .header-inner .link:hover {
   color: var(--red-text);
 }
-
-
+/* Header - end */
