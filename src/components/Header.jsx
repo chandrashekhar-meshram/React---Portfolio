@@ -1,24 +1,73 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
-const Header = () => {
+function Header() {
+  const [stickyClass, setStickyClass] = useState("");
+  const [active, setActive] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+
+    return () => {
+      window.removeEventListener("scroll", stickNavbar);
+    };
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > 100 ? setStickyClass("sticky") : setStickyClass("");
+    }
+  };
+
   return (
-    <header>
+    <header className={`${stickyClass}`}>
       <div className="header-inner">
         <span className="logo">Shekhar</span>
         <div className="links">
-          <a href="" className="link">
+          <a href="#banner" className="link">
             Home
           </a>
-          <a href="" className="link">
+          <a href="#services" className="link">
             Services
           </a>
-          <a href="" className="link">
+          <a href="#experiences" className="link">
             Experience
           </a>
-          <a href="" className="link">
+          <a href="#projects" className="link">
             Projects
           </a>
         </div>
+        <span className="menu" onClick={()=> setActive(!active)}>
+          <i className="fas fa-bars"></i>
+        </span>
+      </div>
+      <div className={`mobile-links ${active ? "active" : ""}`}>
+        <a 
+          className="link" 
+          onClick={()=> setActive(!active)} href="#banner"
+        >
+          Home
+        </a>
+        <a 
+          className="link" 
+          onClick={()=> setActive(!active)} href="#services"
+        >
+          Services
+        </a>
+        <a
+          className="link"
+          onClick={()=> setActive(!active)}
+          href="#experiences"
+        >
+          Experience
+        </a>
+        <a
+          className="link"
+          onClick={()=> setActive(!active)}
+          href="#projects"
+        >
+          Projects
+        </a>
       </div>
     </header>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Banner = () => {
+function Banner() {
   return (
     <section className="banner" id="banner">
       <div className="container">
