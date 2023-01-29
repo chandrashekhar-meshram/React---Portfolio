@@ -18,28 +18,28 @@ function Projects() {
     },
     {
       title: "Project 3",
-      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/3.png",
-      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
-      lLink: "https://chandrashekhar.stackblitz.io/",
+      img: "https://stackblitz.com/files/chandrashekhar/github/chandrashekhar-meshram/React---Portfolio/image/3.%20Herbal%20Tea.png",
+      gLink: "https://github.com/chandrashekhar-meshram/HTML-CSS-Project---HTML-CSS-Mini-Project---c4cwa2yua84u",
+      lLink: "https://herbal-tea.netlify.app/",
     },
-    {
-      title: "Project 4",
-      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/4.png",
-      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
-      lLink: "https://chandrashekhar.stackblitz.io/",
-    },
-    {
-      title: "Project 5",
-      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/5.png",
-      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
-      lLink: "https://chandrashekhar.stackblitz.io/",
-    },
-    {
-      title: "Project 6",
-      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/6.png",
-      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
-      lLink: "https://chandrashekhar.stackblitz.io/",
-    },
+    // {
+    //   title: "Project 4",
+    //   img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/4.png",
+    //   gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
+    //   lLink: "https://chandrashekhar.stackblitz.io/",
+    // },
+    // {
+    //   title: "Project 5",
+    //   img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/5.png",
+    //   gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
+    //   lLink: "https://chandrashekhar.stackblitz.io/",
+    // },
+    // {
+    //   title: "Project 6",
+    //   img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/6.png",
+    //   gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
+    //   lLink: "https://chandrashekhar.stackblitz.io/",
+    // },
   ]);
   return (
     <section className="projects" id="projects">
