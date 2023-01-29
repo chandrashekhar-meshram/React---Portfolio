@@ -4,10 +4,11 @@ import { useState } from "react";
 function Projects() {
   const [projects] = useState([
     {
-      title: "Project 1",
-      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/1.png",
-      gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
-      lLink: "https://chandrashekhar.stackblitz.io/",
+      title: "1. TVmaze (Frontend)",
+      img: "https://stackblitz.com/files/chandrashekhar/github/chandrashekhar-meshram/React---Portfolio/main/Untitled%20design.png",
+      gLink: "https://github.com/chandrashekhar-meshram/ns-tvmaze-project",
+      lLink: "https://ns-react-tvmaze.netlify.app/",
+      info:"User can search using two different preferences like By Actor or By Show Name. \n This app is using API to to display the result. \n This is responsive app."
     },
     {
       title: "Project 2",
@@ -72,10 +73,11 @@ function Projects() {
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                {project.info}
+                {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
                 ea nobis aut deserunt. Reprehenderit numquam harum facilis
                 beatae praesentium pariatur eligendi non. Explicabo, cupiditate
-                odit vero quo iste numquam obcaecati.
+                odit vero quo iste numquam obcaecati. */}
               </p>
             </div>
           ))}
