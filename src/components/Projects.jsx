@@ -11,16 +11,18 @@ function Projects() {
       info:"User can search using two different preferences like By Actor or By Show Name. \n This app is using API to to display the result. \n This is responsive app."
     },
     {
-      title: "Project 2",
-      img: "https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/2.png",
+      title: "2. Comment Box",
+      img: "https://stackblitz.com/files/chandrashekhar/github/chandrashekhar-meshram/React---Portfolio/image/2.%20Comment%20Box.png",
       gLink: "https://github.com/chandrashekhar-meshram/React---Portfolio",
       lLink: "https://chandrashekhar.stackblitz.io/",
+      info: "Reply, Like & Delete Buttons. \n Multiple Reply for each Reply. \n Data will be saved on local. \n For responsiveness 'display: flex' is used"
     },
     {
-      title: "Project 3",
+      title: "3. Hearbal Tea",
       img: "https://stackblitz.com/files/chandrashekhar/github/chandrashekhar-meshram/React---Portfolio/image/3.%20Herbal%20Tea.png",
       gLink: "https://github.com/chandrashekhar-meshram/HTML-CSS-Project---HTML-CSS-Mini-Project---c4cwa2yua84u",
       lLink: "https://herbal-tea.netlify.app/",
+      info: 'Responsive. \n Different Pages ex. About Contact-Us. \n Navigate to another to link YouTube Link etc.',
     },
     // {
     //   title: "Project 4",

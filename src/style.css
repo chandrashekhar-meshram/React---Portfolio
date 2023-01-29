@@ -404,12 +404,11 @@ header .mobile-links {
   color: #fff;
   font-size: 24px;
   cursor: pointer;
-  transition: 0.3s;
-  color: var(--red-text);
+  transition: 0.3s;  
 }
 
 .project i:hover {
-  color: #fff;
+  color: var(--red-text);
 }
 
 .project p {
