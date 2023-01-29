@@ -7,7 +7,7 @@ function Banner() {
         <div className="banner-wrapper">
           <div className="banner-img">
             <img
-              src="https://stackblitz.com/files/react-7tho53/github/chandrashekhar-meshram/React---Portfolio/main/person.png"
+              src="https://user-images.githubusercontent.com/63050133/156676671-d5b2e362-97d4-4404-9447-dd71ddfea82f.gif"
               alt=""
             />
           </div>
